@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario De Inscripcion</title>
+  </head>
+  <body>
+	<h2> Datos Personales</h2>
+	<from action="registrardatos.php" method="post">
+	<fieldset>
+		<p> digite sus datos</p>
+			Nombre: <input type="text" name="nombre"> <br>
+			<br> Apellidos: <input type="text" name="apellido"> <br>
+    			<br> Correo electronico: <input type="text" name="correo"> <br>
+			<br> Numero de identificacion: <input type="text" name="id"> <br>
+			<br> Genero: 
+ 				<select name="Sexo">
+   				<option value="1">Seccionar</option>
+   				<option value="2">femenino</option>
+  				<option value="3">masculino</option>
+				</select> <br>
+					<br> pais de residencia <select name="pais"> <br>
+					<option value="1">Seleccionar</option> 
+					<option value="2">España</option> 
+					<option value="3">México</option> 
+					<option value="4">Guatemala</option> 
+					<option value="5">Honduras</option> 
+					<option value="6">El Salvador</option> 
+					<option value="7">Venezuela</option> 
+					<option value="8">Colombia</option> 
+					<option value="9">Cuba</option> 
+					<option value="10">Bolivia</option> 
+				</select> <br>
+			
+			<br> ¿porque debe ser seleccionado?<br> 
+				<textarea name="comentarios" rows="5" cols="60"></textarea> <br>
+					
+							<br> nivel de estudios: <br>
+								<input type="radio" name="estudios" value="1">Ninguno<br>
+								<input type="radio" name="estudios" value="2">Primaria<br> 
+								<input type="radio" name="estudios" value="3">Secundaria<br> 
+								<input type="radio" name="estudios" value="3">Tecnica<br> 
+								<input type="radio" name="estudios" value="4">Universitario<br>	
+			
+	</fieldset>
+		<br>
+			 <button type="submit" name="enviar"><img src="" alt="Enviar"> </button>
+			
+				
+	</from>
+  </body>
+</html>
